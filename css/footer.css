@@ -1,0 +1,26 @@
+/* ----------------
+ * [START] some magic for sticky footer
+   ---------------- */
+ html, body { height: 100% }
+.container-fluid {
+    min-height: 100%;
+    position: relative;
+}
+footer>a {color: white;
+}
+
+.footer-spacer {
+    height: 40px;
+}
+
+.navbar {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.footer-row {
+    height: 40px;
+    position: absolute;
+    bottom: 0px;
+    margin: 0 -20px;
+}
