@@ -1,0 +1,39 @@
+body {
+    display: grid;
+    margin: 0;
+    font-family: sans-serif;
+    color: #444;
+    text-align: center;
+}
+#ad-form {
+    margin-top: 15px;
+    background-color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#ad-form button {
+    border-radius: 8px;
+    background-color: royalblue;
+    color: seashell;
+    padding: 7px;
+}
+
+.contacts {
+    margin: 15px;
+    padding: 10px;
+}
+.contact {
+    border: 1px solid salmon;
+    margin-bottom: 5px;
+}
+.contact h3 {
+    position: relative;
+    top: 12px;
+}
+.contact h4 {
+    color:#666;
+    font-size: 0.8rem;
+}
+.contacts p {
+    text-align: justify;
+    padding: 20px;
+}

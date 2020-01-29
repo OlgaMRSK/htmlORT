@@ -1,0 +1,23 @@
+#todolist-container{
+display: grid;
+grid-template-columns: 1fr;
+}
+
+#todolist .todo [type=checkbox]:checked + label{
+text-decoration: line-through;
+}
+
+#form-add-todo {
+    margin: 20px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+.error {
+    /*display: none;*/
+    text-align: center;
+   font-size: 0.6rem;
+   color: red;
+   font-weight: bold;
+}
