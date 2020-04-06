@@ -22,6 +22,7 @@ h1{
 }
 
 #red {
+    margin-top:200px;
     background-color: red;
     border-radius: 50px ;
     height: 80px;
@@ -30,6 +31,7 @@ h1{
 
 
 #yellow {
+    margin-top:100px;
     background-color: yellow;
     border-radius: 50px ;
     height: 80px;

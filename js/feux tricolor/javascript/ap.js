@@ -19,14 +19,28 @@ divfeu.appendChild(bt);
 
 
 document.querySelector('#section-container').appendChild(divfeu);
-
-
-bt.addEventListener('click', function() {
-    changercouleur(
-
-    );
-
+$(document).ready(function(){
+	$(trfeu).show().delay(3500).hide(0);
+	$(defeu).hide().delay(3500).show(1).delay(1500).hide(0);
+	$(prfeu).hide().delay(5000).show(1);
 });
 
-bt.addEventListener('click', function(){retardement();});
+
+ bt.addEventListener('click', function(){retardement('Passez, svp!');});
+
+function retardement(str) {
+    bt.innerText = str;
+   
+setTimeout(function() {
+    bt.innerText = 'Cliquez pour traverser';
+}, 2000);
+}
+
+// function changerletext() {
+//     bt.innerText='Textchange';
+//     //this.textContent='textchange';
+//     };
+
+    
+
 
